@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Квиз - последний вопрос</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/fonts/PTSans/stylesheet.css" />
+  </head>
+
+  <body style="flex-wrap: wrap">
+    <section class="plate visible" data-card="6">
+      <div class="cover-content-wrapper">
+        <div class="cover-content">
+          <section>
+            <img
+              class="title-img"
+              width="70"
+              src="img/icons/clapping.svg"
+              alt="Спасибо!"
+            />
+            <div class="title">Спасибо!</div>
+            <div class="title-2">Ваш результат указа ниже:</div>
+
+            <!-- Progress Circle -->
+            <div class="cover-content__progress-ring">
+              <svg class="progress-ring" width="180" height="180">
+                <circle
+                  class="progress-ring__circle"
+                  stroke="#2a8a2c"
+                  cx="90"
+                  cy="90"
+                  r="70"
+                  fill="transparent"
+                />
+              </svg>
+
+              <h1 class="progress-ring__success"></h1>
+            </div>
+
+            <!-- Progress Circle -->
+          </section>
+
+          <section>
+            <div class="title-2">Ваши бонусы:</div>
+            <div class="bonus-cards-wrapper">
+              <a href="#" target="_blank" class="bonus-card">
+                <img
+                  class="bonus-card__img"
+                  src="img/icons/leaflet.svg"
+                  alt=""
+                />
+                <div class="bonus-card__title">
+                  Методичка с курса по верстке
+                </div>
+              </a>
+              <a href="#" target="_blank" class="bonus-card">
+                <img
+                  class="bonus-card__img"
+                  src="img/icons/video-tutorial.png"
+                  alt=""
+                />
+                <div class="bonus-card__title">
+                  Видео урок с курса по верстке
+                </div>
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/progressCircle.js"></script>
+  </body>
+</html>
